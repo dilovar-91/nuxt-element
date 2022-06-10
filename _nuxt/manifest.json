@@ -1,0 +1,38 @@
+{
+  "node_modules/.pnpm/registry.npmmirror.com+nuxt@3.0.0-rc.3_sass@1.51.0/node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-5da5e0c1.mjs",
+    "src": "node_modules/.pnpm/registry.npmmirror.com+nuxt@3.0.0-rc.3_sass@1.51.0/node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/hi/[id].vue",
+      "pages/index.vue"
+    ],
+    "css": [
+      "entry.ccddfc8e.css"
+    ]
+  },
+  "pages/hi/[id].vue": {
+    "file": "_id_-b6f6585f.mjs",
+    "src": "pages/hi/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Counter-52cf2238.mjs",
+      "node_modules/.pnpm/registry.npmmirror.com+nuxt@3.0.0-rc.3_sass@1.51.0/node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_Counter-52cf2238.mjs": {
+    "file": "Counter-52cf2238.mjs",
+    "imports": [
+      "node_modules/.pnpm/registry.npmmirror.com+nuxt@3.0.0-rc.3_sass@1.51.0/node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-0cf18d09.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/.pnpm/registry.npmmirror.com+nuxt@3.0.0-rc.3_sass@1.51.0/node_modules/nuxt/dist/app/entry.mjs",
+      "_Counter-52cf2238.mjs"
+    ]
+  }
+}
