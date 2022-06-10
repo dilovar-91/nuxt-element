@@ -16,3 +16,149 @@ a {
   font-weight: 400;
   color: var(--el-color-primary);
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.d-header, .dark .d-header {
+  --tw-bg-opacity: 1;
+  --tw-bg-opacity: 0.8;
+}
+
+.d-header {
+  background-color: rgba(255,255,255,var(--tw-bg-opacity));
+  border-style: none;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  height: var(--header-height);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e4e4e7;
+}
+
+
+.DocSearch-Button {
+  align-items: center;
+  background: var(--docsearch-searchbox-background);
+  border: 0;
+  border-radius: 40px;
+  color: var(--docsearch-muted-color);
+  cursor: pointer;
+  display: flex;
+  font-weight: 500;
+  height: 36px;
+  justify-content: space-between;
+  margin: 0 0 0 16px;
+  padding: 0 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.DocSearch-Button {
+  background-color: transparent!important;
+  border-radius: 0.125rem!important;
+  height: 3rem!important;
+  margin: auto!important;
+  width: 3rem!important;
+}
+.DocSearch {
+  --docsearch-primary-color: #00dc82;
+  --docsearch-highlight-color: var(--docsearch-primary-color);
+  --docsearch-text-color: #71717a;
+  --docsearch-modal-background: #f4f4f5;
+  --docsearch-searchbox-shadow: 0 0 0 2px var(--docsearch-primary-color);
+  --docsearch-searchbox-background: var(--color-transparent);
+  --docsearch-searchbox-focus-background: var(--color-transparent);
+  --docsearch-hit-color: var(--color-gray-700);
+  --docsearch-hit-shadow: none;
+  --docsearch-logo-color: var(--docsearch-text-color);
+  --docsearch-muted-color: var(--color-gray-500);
+  --docsearch-container-background: rgb(244 244 245/55%);
+}
+
+.DocSearch-Button .DocSearch-Search-Icon {
+  color: var(--docsearch-text-color);
+}
+ .DocSearch-Search-Icon {
+   stroke-width: 1.6;
+ }
+canvas, iframe, img, svg, video {
+  display: block;
+  vertical-align: middle;
+}
+
+.d-icon {
+  --tw-text-opacity: 1;
+  color: rgba(113,113,122,var(--tw-text-opacity));
+}
+
+.duration-200 {
+  transition-duration: .2s;
+}
+.transition-colors {
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+}
+
+
+[role=button], button {
+  cursor: pointer;
+}
+
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+button {
+  text-transform: none;
+  background-color: transparent;
+  background-image: none;
+}
+button, input {
+  font-size: 100%;
+  line-height: 1.15;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+body, button, input {
+  margin: 0;
+  font-family: inherit;
+}
+
+.highlight-box:hover {
+  box-shadow: 0 0 16px #00dc82;
+}
+
+.highlight-box {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  transition-duration: .3s;
+  box-shadow: 0 0 8px rgb(0 220 130 / 67%);
+}
+
+
+.d-header-home {
+  border-style: none;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  --tw-bg-opacity: 1;
+  --tw-bg-opacity: 0.8;
+  height: var(--header-height);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
